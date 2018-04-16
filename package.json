@@ -1,0 +1,58 @@
+{
+  "name": "code-queue",
+  "version": "1.0.0",
+  "description": "A small package to create code queue's",
+  "main": "src/queue.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha -R spec --recursive",
+    "test:watch": "mocha -R spec --recursive --watch",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint -c ./package.json ./src"
+  },
+  "author": {
+    "name": "Glenn de Haan",
+    "email": "glenn@dehaan.cloud",
+    "url": "https://glenndehaan.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glenndehaan/code-queue.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "indent": [
+        "error",
+        4
+      ]
+    },
+    "extends": [
+      "eslint:recommended"
+    ]
+  },
+  "eslintIgnore": [
+    "*.test.js"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^4.19.1",
+    "mocha": "^5.1.0",
+    "nyc": "^11.6.0",
+    "should": "^13.1.1"
+  }
+}

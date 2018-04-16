@@ -1,6 +1,6 @@
 {
   "name": "code-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small package to create code queue's",
   "main": "src/queue.js",
   "scripts": {
@@ -52,7 +52,7 @@
     "coveralls": "^3.0.0",
     "eslint": "^4.19.1",
     "mocha": "^5.1.0",
-    "nyc": "^11.6.0",
+    "nyc": "^11.7.0",
     "should": "^13.1.1"
   }
 }

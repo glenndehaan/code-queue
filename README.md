@@ -5,8 +5,8 @@ A small package to create code queue's
 [![npm](https://img.shields.io/npm/v/code-queue.svg)](https://www.npmjs.com/package/code-queue) ![node](https://img.shields.io/node/v/code-queue.svg) ![dependencies](https://david-dm.org/glenndehaan/code-queue.svg) [![Build Status](https://travis-ci.org/glenndehaan/code-queue.svg?branch=master)](https://travis-ci.org/glenndehaan/code-queue) [![Coverage Status](https://coveralls.io/repos/github/glenndehaan/code-queue/badge.svg?branch=master)](https://coveralls.io/github/glenndehaan/code-queue?branch=master)
 
 ## Functionalities
-* Check if browsers visiting your express app are supported by you.
-* Redirect old browsers to a fallback page.
+* Multiple code queue's
+* Thread count support
 
 ## Setup
 Install the Code Queue package:
